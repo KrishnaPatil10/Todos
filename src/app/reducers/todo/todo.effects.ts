@@ -17,7 +17,7 @@ export class TodoEffects {
     mergeMap(action => timer(2000).pipe(
       tap(() => {
         // Need to fixed this issue
-       // throw (new Error(`${action.payload.text} failed`))
+        throw (new Error(`${action['payload']['text']} failed`));
       }),
       //map(() => {
       //return new AddTodo(action.payload);
