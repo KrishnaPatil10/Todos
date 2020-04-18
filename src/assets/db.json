@@ -1,0 +1,34 @@
+{
+    "toppings": [
+        {
+            "name": "Chilly",
+            "id": 1
+        },
+        {
+            "name": "Olive",
+            "id": 2
+        }
+    ],
+    "pizzas": [
+        {
+            "id": 1,
+            "name": "Cheez",
+            "toppings": [
+                {
+                    "name": "Chilly",
+                    "id": 1
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Macronni",
+            "toppings": [
+                {
+                    "name": "Olive",
+                    "id": 2
+                }
+            ]
+        }
+    ]
+}
